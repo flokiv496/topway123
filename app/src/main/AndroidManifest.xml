@@ -6,7 +6,6 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
     <application
-        android:hasCode="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/theme_name"
         android:supportsRtl="true">
