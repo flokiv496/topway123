@@ -1,35 +1,83 @@
 plugins {
-    id 'com.android.application'
+
+    id 'com.android.application'
+
 }
+
+
 
 android {
-    namespace 'launcher.variety.theme.plugin.sfp_cp105_1'
-    compileSdk 34
 
-    defaultConfig {
-        applicationId 'launcher.variety.theme.plugin.sfp_cp105_1'
-        minSdk 21
-        targetSdk 26          // как у оригинальной темы T733 (targetSdk 26)
-        versionCode 1
-        versionName '1.0_carplay.land'
-    }
+    namespace 'launcher.variety.theme.plugin.sfp_cp105_1'
 
-    buildTypes {
-        release {
-            minifyEnabled false
-            shrinkResources false   // ОБЯЗАТЕЛЬНО: лаунчер ищет ресурсы по имени, R8 их вырежет
-        }
-    }
-    lint {
-        abortOnError false
-        checkReleaseBuilds false
-    }
-    androidResources {
-        noCompress += ['json']
-    }
+    compileSdk 34
+
+
+
+    defaultConfig {
+
+        applicationId 'launcher.variety.theme.plugin.sfp_cp105_1'
+
+        minSdk 21
+
+        targetSdk 26
+
+        versionCode 14
+
+        versionName '14_261118000000.land'
+
+    }
+
+
+
+    signingConfigs {
+
+        debug {
+
+            enableV1Signing true
+
+            enableV2Signing false
+
+            enableV3Signing false
+
+        }
+
+    }
+
+
+
+    buildTypes {
+
+        release {
+
+            minifyEnabled false
+
+            shrinkResources false
+
+        }
+
+    }
+
+    lint {
+
+        abortOnError false
+
+        checkReleaseBuilds false
+
+    }
+
+    androidResources {
+
+        noCompress += ['json']
+
+    }
+
 }
 
+
+
 dependencies {
-    // нужен только чтобы aapt узнал атрибуты layout_constraint*/Flow в layout-файлах
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+
 }
