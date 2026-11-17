@@ -1,0 +1,48 @@
+{
+  "source": "local",
+  "attributes": [
+    {
+      "id_name": "tv_time_hour",
+      "width": -2,
+      "height": -2,
+      "text_size": 72,
+      "text_color": "@color/bai",
+      "gravity": "l_24|t_18",
+      "visibility": true
+    },
+    {
+      "id_name": "tv_time_day",
+      "width": -2,
+      "height": -2,
+      "gravity": "l_26|bottom|b_20",
+      "text_size": 22,
+      "text_color": "@color/hui",
+      "visibility": true
+    },
+    {
+      "id_name": "tv_time_week",
+      "width": -2,
+      "height": -2,
+      "gravity": "right|r_26|bottom|b_20",
+      "text_size": 22,
+      "text_color": "@color/hui",
+      "visibility": true
+    },
+    {
+      "id_name": "tv_ap",
+      "width": -2,
+      "height": -2,
+      "text_size": 0,
+      "text_color": "@color/bai",
+      "gravity": "l_200|t_30",
+      "visibility": false
+    },
+    {
+      "id_name": "ll_time_hour",
+      "width": 0,
+      "height": 0,
+      "gravity": "center_horizontal|t_0",
+      "visibility": false
+    }
+  ]
+}

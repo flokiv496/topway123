@@ -1,0 +1,150 @@
+{
+  "source": "theme",
+  "attributes": [
+    {
+      "id_name": "iv_album_blur_image",
+      "width": -1,
+      "height": -1,
+      "gravity": "center",
+      "visibility": true,
+      "alpha": 1,
+      "img_type": "round",
+      "img_round": 28
+    },
+    {
+      "id_name": "iv_album_blur_image_fg",
+      "width": -1,
+      "height": -1,
+      "gravity": "center",
+      "visibility": true,
+      "img_type": "round",
+      "img_round": 28
+    },
+    {
+      "id_name": "iv_media_icon_bg",
+      "width": -2,
+      "height": -2,
+      "gravity": "center",
+      "visibility": false
+    },
+    {
+      "id_name": "iv_media_icon",
+      "width": 118,
+      "height": 118,
+      "gravity": "l_20|t_20",
+      "visibility": true,
+      "img_type": "round",
+      "img_round": 18
+    },
+    {
+      "id_name": "iv_media_head_img",
+      "width": 34,
+      "height": 34,
+      "gravity": "right|r_16|t_16",
+      "visibility": true
+    },
+    {
+      "id_name": "tv_media_type",
+      "width": -2,
+      "height": -2,
+      "gravity": "l_152|t_30",
+      "text_size": 16,
+      "text_color": "@color/hui",
+      "visibility": true
+    },
+    {
+      "id_name": "tv_media_name",
+      "width": 160,
+      "height": -2,
+      "gravity": "l_152|t_62",
+      "text_size": 22,
+      "text_color": "@color/bai",
+      "visibility": true
+    },
+    {
+      "id_name": "pb_media_progress",
+      "width": 290,
+      "height": 6,
+      "gravity": "center_horizontal|t_160",
+      "companion_id_names": [
+        "lrc_pb_media_progress"
+      ]
+    },
+    {
+      "id_name": "iv_media_pre",
+      "width": 84,
+      "height": 84,
+      "gravity": "l_22|bottom|b_14",
+      "companion_id_names": [
+        "lrc_iv_media_pre"
+      ]
+    },
+    {
+      "id_name": "iv_media_pp",
+      "width": 84,
+      "height": 84,
+      "gravity": "center_horizontal|bottom|b_14",
+      "companion_id_names": [
+        "lrc_iv_media_pp"
+      ]
+    },
+    {
+      "id_name": "iv_media_next",
+      "width": 84,
+      "height": 84,
+      "gravity": "right|r_22|bottom|b_14",
+      "companion_id_names": [
+        "lrc_iv_media_next"
+      ]
+    },
+    {
+      "id_name": "lrc_iv_media_head_img",
+      "width": -2,
+      "height": -2,
+      "gravity": "center",
+      "visibility": false
+    },
+    {
+      "id_name": "lrc_iv_media_icon_bg",
+      "width": -2,
+      "height": -2,
+      "gravity": "center",
+      "visibility": false
+    },
+    {
+      "id_name": "lrc_iv_media_icon",
+      "width": -2,
+      "height": -2,
+      "gravity": "center",
+      "visibility": false
+    },
+    {
+      "id_name": "lrc_iv_album_blur_image",
+      "width": -2,
+      "height": -2,
+      "gravity": "center",
+      "visibility": false
+    },
+    {
+      "id_name": "lrc_iv_album_blur_image_fg",
+      "width": -2,
+      "height": -2,
+      "gravity": "center",
+      "visibility": false
+    },
+    {
+      "id_name": "lrc_tv_media_name",
+      "width": -2,
+      "height": -2,
+      "gravity": "center",
+      "visibility": false
+    },
+    {
+      "id_name": "lrc_lyrics_layout",
+      "width": -2,
+      "height": -2,
+      "gravity": "center",
+      "visibility": false
+    }
+  ]
+}

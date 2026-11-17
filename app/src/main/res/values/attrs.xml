@@ -1,0 +1,8 @@
+<resources>
+    <!-- Атрибуты «макетных» вьюх лаунчера (variety.theme.ThemeMocker) -->
+    <attr name="soft_type" format="string" />
+    <attr name="mock_label" format="string" />
+    <attr name="config_file_path" format="string" />
+    <attr name="view_config_path" format="string" />
+    <attr name="editable" format="boolean" />
+</resources>

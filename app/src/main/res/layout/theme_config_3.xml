@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Страница 3: окно «картинка в картинке» (навигация), как карточка карты в CarPlay -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <variety.theme.ThemeMocker android:layout_width="match_parent" android:layout_height="match_parent" android:background="@drawable/bg_carplay" app:mock_label="Фон" app:soft_type="image" />
+    <variety.theme.ThemeMocker android:id="@+id/desktop_window"
+        android:layout_width="893px" android:layout_height="617px"
+        app:config_file_path="dw/sfp_window_radius.json"
+        app:mock_label="Окно приложения" app:soft_type="desktop_window"
+        app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toRightOf="parent" android:layout_marginRight="21px" />
+</androidx.constraintlayout.widget.ConstraintLayout>

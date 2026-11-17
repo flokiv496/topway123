@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Страница 1: сетка приложений в стиле CarPlay (4 x 2) -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <variety.theme.ThemeMocker android:layout_width="match_parent" android:layout_height="match_parent" android:background="@drawable/bg_carplay" app:mock_label="Фон" app:soft_type="image" />
+    <androidx.constraintlayout.helper.widget.Flow
+        android:id="@+id/apps_flow" android:layout_width="893px" android:layout_height="617px"
+        app:constraint_referenced_ids="app1,app2,app3,app4,app5,app6,app7,app8"
+        app:flow_wrapMode="aligned" app:flow_maxElementsWrapped="4"
+        app:flow_horizontalGap="24px" app:flow_verticalGap="20px" app:flow_horizontalStyle="packed"
+        app:flow_verticalStyle="packed" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toRightOf="parent" android:layout_marginRight="21px" />
+    <variety.theme.ThemeMocker android:id="@+id/app1" android:layout_width="196px" android:layout_height="270px" app:soft_type="app" app:editable="true" app:mock_label="Иконка" app:view_config_path="home/app_widget_view_config.json"/>
+    <variety.theme.ThemeMocker android:id="@+id/app2" android:layout_width="196px" android:layout_height="270px" app:soft_type="app" app:editable="true" app:mock_label="Иконка" app:view_config_path="home/app_widget_view_config.json"/>
+    <variety.theme.ThemeMocker android:id="@+id/app3" android:layout_width="196px" android:layout_height="270px" app:soft_type="app" app:editable="true" app:mock_label="Иконка" app:view_config_path="home/app_widget_view_config.json"/>
+    <variety.theme.ThemeMocker android:id="@+id/app4" android:layout_width="196px" android:layout_height="270px" app:soft_type="app" app:editable="true" app:mock_label="Иконка" app:view_config_path="home/app_widget_view_config.json"/>
+    <variety.theme.ThemeMocker android:id="@+id/app5" android:layout_width="196px" android:layout_height="270px" app:soft_type="app" app:editable="true" app:mock_label="Иконка" app:view_config_path="home/app_widget_view_config.json"/>
+    <variety.theme.ThemeMocker android:id="@+id/app6" android:layout_width="196px" android:layout_height="270px" app:soft_type="app" app:editable="true" app:mock_label="Иконка" app:view_config_path="home/app_widget_view_config.json"/>
+    <variety.theme.ThemeMocker android:id="@+id/app7" android:layout_width="196px" android:layout_height="270px" app:soft_type="app" app:editable="true" app:mock_label="Иконка" app:view_config_path="home/app_widget_view_config.json"/>
+    <variety.theme.ThemeMocker android:id="@+id/app8" android:layout_width="196px" android:layout_height="270px" app:soft_type="app" app:editable="true" app:mock_label="Иконка" app:view_config_path="home/app_widget_view_config.json"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

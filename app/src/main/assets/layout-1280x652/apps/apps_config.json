@@ -1,0 +1,24 @@
+{
+  "source": "theme",
+  "image_path": "mipmap",
+  "background": "bg_carplay_apps",
+  "attr": {
+    "width": -1,
+    "height": -1,
+    "gravity": "t_90|l_70|r_70",
+    "icon_width": 120,
+    "icon_height": 120,
+    "row": 2,
+    "col": 6,
+    "row_gap": 70,
+    "col_gap": 60,
+    "default_bg_name": "app_default_img_bg",
+    "item_bg_name": "",
+    "scale": 0.64,
+    "apps_pos": "bottom"
+  },
+  "use_local_icon": false,
+  "force_local_config": false,
+  "config": [],
+  "filter": []
+}

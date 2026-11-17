@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Левая постоянная панель: часы, мини-плеер, док из 3 приложений -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/sidebar"
+        android:layout_width="330px" android:layout_height="617px" android:layout_marginLeft="21px"
+        android:background="@drawable/bg_sidebar"
+        app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent">
+
+        <variety.theme.ThemeMocker android:id="@+id/side_time"
+            android:layout_width="330px" android:layout_height="150px"
+            app:config_file_path="time/time_config.json" app:view_config_path="time/view_config.json"
+            app:mock_label="Время" app:soft_type="time"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintLeft_toLeftOf="parent" />
+
+        <variety.theme.ThemeMocker android:id="@+id/side_media"
+            android:layout_width="330px" android:layout_height="316px" android:layout_marginTop="12px"
+            app:config_file_path="media/media_config_2.json" app:view_config_path="media/media_view_config_2.json"
+            app:mock_label="Медиаплагин" app:soft_type="local_music|bt_music|spotify|nct_car_vn|kw_music|kl_kaola|car_media"
+            app:layout_constraintTop_toBottomOf="@id/side_time" app:layout_constraintLeft_toLeftOf="parent" />
+
+        <androidx.constraintlayout.helper.widget.Flow android:id="@+id/dock_flow"
+            android:layout_width="330px" android:layout_height="100px" android:layout_marginBottom="20px"
+            app:constraint_referenced_ids="dock1,dock2,dock3" app:flow_horizontalGap="15px" app:flow_horizontalStyle="packed"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" />
+        <variety.theme.ThemeMocker android:id="@+id/dock1" android:layout_width="100px" android:layout_height="100px" app:soft_type="app" app:editable="true" app:mock_label="Иконка" app:view_config_path="home/app_widget_view_config_2.json"/>
+        <variety.theme.ThemeMocker android:id="@+id/dock2" android:layout_width="100px" android:layout_height="100px" app:soft_type="app" app:editable="true" app:mock_label="Иконка" app:view_config_path="home/app_widget_view_config_2.json"/>
+        <variety.theme.ThemeMocker android:id="@+id/dock3" android:layout_width="100px" android:layout_height="100px" app:soft_type="app" app:editable="true" app:mock_label="Иконка" app:view_config_path="home/app_widget_view_config_2.json"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

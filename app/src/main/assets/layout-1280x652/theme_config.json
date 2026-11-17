@@ -1,0 +1,29 @@
+{
+  "source": "theme",
+  "animation_type": "",
+  "width": -1,
+  "height": -1,
+  "view_config_path": "home/view_config.json",
+  "gravity": "center",
+  "background": "",
+  "config": [
+    {
+      "page_bg": "",
+      "apps_bg": "bg_carplay_apps",
+      "design_config": "@layout/theme_config_1",
+      "page_config": []
+    },
+    {
+      "page_bg": "",
+      "apps_bg": "bg_carplay_apps",
+      "design_config": "@layout/theme_config_2",
+      "page_config": []
+    },
+    {
+      "page_bg": "",
+      "apps_bg": "bg_carplay_apps",
+      "design_config": "@layout/theme_config_3",
+      "page_config": []
+    }
+  ]
+}

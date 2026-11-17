@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape><corners android:radius="4px" /><solid android:color="@color/cp_progress_track" /></shape>
+    </item>
+    <item android:id="@android:id/secondaryProgress">
+        <clip><shape><corners android:radius="4px" /><solid android:color="@color/cp_progress_track" /></shape></clip>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip><shape><corners android:radius="4px" />
+            <gradient android:startColor="@color/cp_progress_start" android:centerColor="@color/cp_progress_center"
+                android:endColor="@color/cp_progress_end" android:angle="180" /></shape></clip>
+    </item>
+</layer-list>

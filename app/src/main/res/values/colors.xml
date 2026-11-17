@@ -1,0 +1,13 @@
+<resources>
+    <color name="bai">#FFFFFF</color>
+    <color name="hei">#FFFFFF</color>   <!-- тема всегда тёмная: «чёрный» текст тоже белый -->
+    <color name="hui">#8E8E93</color>
+    <color name="cp_bg_top">#1B1B22</color>
+    <color name="cp_bg_bottom">#000000</color>
+    <color name="cp_card">#1C1C1E</color>
+    <color name="cp_sidebar">#0C0C0F</color>
+    <color name="cp_progress_track">#4D8E8E93</color>
+    <color name="cp_progress_start">#FFFFFF</color>
+    <color name="cp_progress_center">#FFFFFF</color>
+    <color name="cp_progress_end">#FFFFFF</color>
+</resources>

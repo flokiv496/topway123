@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:hasCode="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/theme_name"
+        android:supportsRtl="true">
+
+        <!-- Лаунчер находит тему по этому ключу (формат как у T733) -->
+        <meta-data android:name="launcher.variety.theme.plugin" android:value="sfp_cp105_1" />
+        <meta-data android:name="support_night" android:value="true" />
+        <meta-data android:name="support_systemui" android:value="false" />
+        <meta-data android:name="support_systemui_night" android:value="false" />
+    </application>
+</manifest>

@@ -1,0 +1,20 @@
+{
+  "source": "theme",
+  "attributes": [
+    {
+      "id_name": "iv_app_icon",
+      "width": 120,
+      "height": 120,
+      "gravity": "center_horizontal|t_0"
+    },
+    {
+      "id_name": "tv_item",
+      "width": -2,
+      "height": -2,
+      "visibility": true,
+      "gravity": "center_horizontal|bottom|b_0",
+      "text_size": 22,
+      "text_color": "@color/bai"
+    }
+  ]
+}
