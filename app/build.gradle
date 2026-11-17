@@ -1,83 +1,73 @@
 plugins {
 
-    id 'com.android.application'
+id 'com.android.application'
 
 }
-
-
 
 android {
 
-    namespace 'launcher.variety.theme.plugin.sfp_cp105_1'
+namespace 'launcher.variety.theme.plugin.sfp_cp105_1'
 
-    compileSdk 34
+compileSdk 34
 
+defaultConfig {
 
+applicationId 'launcher.variety.theme.plugin.sfp_cp105_1'
 
-    defaultConfig {
+minSdk 21
 
-        applicationId 'launcher.variety.theme.plugin.sfp_cp105_1'
+targetSdk 26
 
-        minSdk 21
+versionCode 14
 
-        targetSdk 26
-
-        versionCode 14
-
-        versionName '14_261118000000.land'
-
-    }
-
-
-
-    signingConfigs {
-
-        debug {
-
-            enableV1Signing true
-
-            enableV2Signing false
-
-            enableV3Signing false
-
-        }
-
-    }
-
-
-
-    buildTypes {
-
-        release {
-
-            minifyEnabled false
-
-            shrinkResources false
-
-        }
-
-    }
-
-    lint {
-
-        abortOnError false
-
-        checkReleaseBuilds false
-
-    }
-
-    androidResources {
-
-        noCompress += ['json']
-
-    }
+versionName '14_261118000000.land'
 
 }
 
+signingConfigs {
 
+debug {
+
+enableV1Signing true
+
+enableV2Signing false
+
+enableV3Signing false
+
+}
+
+}
+
+buildTypes {
+
+release {
+
+minifyEnabled false
+
+shrinkResources false
+
+}
+
+}
+
+lint {
+
+abortOnError false
+
+checkReleaseBuilds false
+
+}
+
+androidResources {
+
+noCompress += ['json']
+
+}
+
+}
 
 dependencies {
 
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
 
 }
